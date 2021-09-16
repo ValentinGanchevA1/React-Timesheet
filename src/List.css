@@ -1,0 +1,12 @@
+.container {
+  text-align: left;
+}
+
+.search-bar {
+  margin-bottom: 1em;
+  display: none;
+}
+
+.searchable {
+  display: block;
+}

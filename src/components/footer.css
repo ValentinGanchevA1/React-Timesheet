@@ -1,0 +1,32 @@
+.footer{
+height: 40px;
+margin-top: -40px;
+bottom:0;
+position:fixed;
+width: 100%;
+background-color: #0c5460;
+}
+.footerBtn {
+position: fixed;
+right: 0;
+}
+.footerBtn button{
+margin: 5px;
+background-color: #389bf2;
+padding: 5px;
+border: 0px;
+color: white;
+    border-radius: .25rem
+}
+.messDiv{
+
+}
+.toast{
+  width: 100%;
+  color: white;
+  background-color: #404040;
+  position: fixed;
+  left: 40%;
+  right: 50%;
+  bottom: 50px;
+}

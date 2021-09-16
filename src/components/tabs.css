@@ -1,0 +1,83 @@
+.nav {
+  padding: 10px 5px 0;
+  background: #0c5460;
+  width: 100%;
+}
+.nav-tabs .nav-link {
+    color: white;
+}
+.addBt {
+  padding: 5px;
+}
+.tabStyle{
+    align-items: center;
+}
+.content-style{
+    display: flex;
+    padding: 1em;
+}
+#navbarCollapse {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     width: 280px; /*example + never use min-width with this solution */
+     height: 100%;
+     background: #000;
+   }
+   .sidenav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 30px;
+   }
+   .navBack {
+     right: 0;
+   }
+   .sidenav div a,h4 {
+     padding: 0.5em;
+     text-decoration: none;
+     font-size: 15px;
+     color: #818181;
+     display: block;
+     transition: 0.3s;
+   }
+   .sidenav div a:hover {
+     color: #f1f1f1;
+   }
+
+   @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navSlide , .navBack {
+  cursor: pointer !important;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+}
+.navSlide {
+  left: 0;
+color: black;
+}
+.body-container  {
+  padding-left: 10px;
+  width: 100%
+}
+
+a{
+  color: #f8f9fa;
+}
+.fa{
+  color:white;
+}

@@ -1,0 +1,60 @@
+.header-container {
+}
+
+.header-container .content {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+  background: rgba(155, 214, 255, 0.5);
+}
+
+.header-container button.icon-btn:first-child {
+  float: left;
+}
+
+.app-title {
+  width: 100%;
+}
+
+.header-container button.icon-btn {
+  float: right;
+}
+
+.filter-panel {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0;
+  max-height: 0;
+  -webkit-transition: max-height 0.3s ease-out, padding 0.3s;
+  transition: max-height 0.2s ease-out, padding 0.3s;
+  overflow: hidden;
+}
+
+.show-filters {
+  max-height: 500px;
+  -webkit-transition: max-height 0.75s ease, padding 0.3s;
+  transition: max-height 0.75s ease, padding 0.3s;
+}
+
+.filter-header {
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.filter-header h3 {
+  margin: 0.5em;
+  text-align: left;
+  font-weight: normal;
+}
+
+.filter-content {
+  padding: 1em;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0;
+}

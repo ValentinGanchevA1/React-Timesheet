@@ -1,0 +1,81 @@
+.value-help-container {
+  width: 69%;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  position: relative;
+}
+
+.value-help input,
+.value-help div {
+  text-overflow: ellipsis;
+}
+
+.value-help-icon {
+  margin: 0;
+  padding: 0.4em !important;
+  position: absolute;
+  right: 0;
+}
+
+.value-help-container:hover {
+  border-color: #8787f5;
+}
+
+.value-help-container .icon-btn:hover {
+  opacity: 1 !important;
+}
+
+.value-help-icon:hover {
+  cursor: pointer;
+  background-color: #dadada;
+}
+
+.mandatory-input::before {
+  content: "*";
+  color: red;
+  font-size: 16px;
+}
+
+.customVH {
+  display: inline-flex;
+}
+
+.customVH > div:first-child {
+  width: 70%;
+}
+
+.customVH .value-help-container {
+  width: 56%;
+}
+
+.customVH > div:last-child {
+  width: 30%;
+  margin: 5px 0;
+}
+
+.no-label {
+  display: none;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+@media all and (max-width: 900px) {
+  .customVH label,
+  .value-help label {
+    margin-bottom: 5px;
+    width: auto;
+    float: left;
+  }
+
+  .customVH .value-help-container,
+  .value-help-container {
+    width: 100%;
+  }
+
+  .customVH > div:last-child {
+    width: 50%;
+    margin: auto 0;
+  }
+}
